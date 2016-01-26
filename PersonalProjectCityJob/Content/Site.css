@@ -1,0 +1,15 @@
+﻿.nav, .pagination, .carousel, .panel-title a { cursor: pointer; }
+
+#navbar{
+    background-color: #8DBCE0;
+}
+
+#navbar1>ul>li>a {
+    font-family: sans-serif;
+    text-decoration: none; /* no underline */
+    color: black;
+}
+
+a {
+  
+}
