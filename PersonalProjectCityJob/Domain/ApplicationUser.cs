@@ -19,5 +19,13 @@ namespace PersonalProjectCityJob.Domain
             // Add custom user claims here
             return userIdentity;
         }
+
+        public IList<Sector> WatchedJobs { get; set; }
+
+        public IList<City> WatchedCities { get; set; }
+
+        public IList<Sector> PreferredSectors { get; set; }
+
+
     }
 }
